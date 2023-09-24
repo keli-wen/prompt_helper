@@ -1,0 +1,53 @@
+/* 引用 fonts.css */
+@import url('fonts.css');
+
+body {
+    font-family: 'Nexus' !important;
+}
+
+#sidebar {
+    min-height: 100vh; /* 设置侧边栏最小高度为视口高度，确保和主界面对齐 */
+    border-right: 1px solid #dee2e6; /* 添加右边框 */
+    background-color: #333 !important;
+    color: white;
+}
+
+#logo-section {
+    text-align: center; /* 设置 Logo 和标题居中 */
+    border-bottom: 1px solid #dee2e6; /* 添加底部边框 */
+}
+
+#logo {
+    max-width: 70%; /* 设置 Logo 最大宽度 */
+    margin-bottom: 10px; /* 设置 Logo 下边距 */
+}
+
+#name {
+    font-size: 20px;
+    color: palegoldenrod;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#main {
+    padding: 20px; /* 设置主界面内边距 */
+}
+
+#search-section {
+    margin-bottom: 20px; /* 设置搜索栏下边距 */
+}
+
+#search-method {
+    /* 设置整个横向长度 */
+    width: 50%;
+}
+
+#clipboard-preview,
+#prompt-preview {
+    border: 1px solid #dee2e6; /* 设置边框颜色 */
+    border-radius: 5px; /* 设置边框圆角 */
+}
+
+.card-body {
+    padding: 15px; /* 设置卡片内容内边距 */
+}
